@@ -4,7 +4,7 @@ window.onload = load;
 
 // Constants
 const TOTAL_ENDINGS = 3;
-const IMG_DIR = "assn6_img/"
+const IMG_DIR = "img/"
 const FADE_TIME = 2000; // 0 for Debug; 2000 for final
 
 // list of scenes/vertices that make up the game
