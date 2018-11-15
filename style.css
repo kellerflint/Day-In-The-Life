@@ -1,0 +1,75 @@
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#stats-div {
+    display: none;
+    width: 10%;
+    padding: .5%;
+    position: fixed;
+}
+
+#main-div {
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+img {
+    width: 816px;
+    border: 3px solid grey;
+}
+
+.hover {
+    border: 3px solid black;
+}
+
+button {
+    border: 1px solid grey;
+    border-radius: 12px;
+    font-size: 1em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+ul {
+    text-align: left;
+}
+
+.setup {
+    display: none;
+}
+
+.next {
+    width: 306px;
+    filter: blur(10px);
+    transform: scale(1.1);
+}
+
+.blurContainer {
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+    border: 3px solid grey;
+}
+
+.blurHover {
+    border: 3px solid black;
+}
+
+.sceneDiv {
+    display: inline-block;
+}
+
+.cap {
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-top: 0px;
+    border: 2px solid grey;
+    background-color: #e2e971;
+}

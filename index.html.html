@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!--
+    Files: assn6.html, assn6_script.js, assn6_style.css, assn6_main_style.css, assn6_img/
+    Author: Keller Flint
+    Date: 11/12/18
+
+    A choose your own adventure game where players can select different images to progress the story through a series of events and endings.
+-->
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>A Day in the Life</title>
+    <link rel="stylesheet" href="assn6_main_style.css" type="text/css" />
+    <link rel="stylesheet" href="assn6_style.css" type="text/css" />
+</head>
+
+<body>
+    <div id="stats-div">
+        <h2 id="stats">Stats</h2>
+        <p id="restarts">Restarts:</p>
+        <p id="totalEndings">Endings:</p>
+        <h2 id="endings">Endings</h2>
+        <ul id="endings-list"></ul>
+    </div>
+    <div id="main-div">
+        <p class="setup">Get ready for a revolutionary game. A game that has been called everything from</p>
+        <p class="setup">"So mediocure it's almost okay." -Seth Nelson</p>
+        <p class="setup">to</p>
+        <p class="setup">"Like 3/10 I guess. Can we please go eat now?" -Eliza Heartwick </p>
+        <p class="setup">and even</p>
+        <p class="setup">"Stop taking pictures of me!" -Ethan Parker </p>
+        <p class="setup" id="lastP">You are playing</p>
+
+        <h1 class="setup" id="title">A Day in the Life</h1>
+
+        <div id="main-image-div"></div>
+        <div id="main-text-div"></div>
+        <div id="next-image-div"></div>
+        <div id="buttons-div">
+            <button class="setup" id="newGame">continue</button>
+        </div>
+    </div>
+
+    <!--
+    I have to use these links because I'm coding in AWS Cloud9 which hates the 
+    jquery links you gave us for some reason.
+    -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="assn6_script.js"></script>
+</body>
+
+</html>
