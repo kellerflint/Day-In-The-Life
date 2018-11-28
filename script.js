@@ -256,6 +256,8 @@ let currentTextIndex;
 
 // Starts game intro and calls functions to build the game graph
 function load() {
+
+
     convertToIndex();
     buildGraph();
     graph.consolePrintGraph();
